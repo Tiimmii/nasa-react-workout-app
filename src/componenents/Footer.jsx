@@ -9,7 +9,7 @@ const Footer = ({changeModel, data}) => {
             <h2>{data?.title}</h2>
         </div>
         <button onClick={ changeModel }>
-            <i class="fa-solid fa-circle-info"></i>
+            <i className="fa-solid fa-circle-info"></i>
         </button>
     </footer>
   )
