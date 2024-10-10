@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import Footer from "./componenents/Footer"
-import Main from "./componenents/main"
+import Main from "./componenents/Main"
 import SiderBar from "./componenents/SiderBar"
 
 function App() {
