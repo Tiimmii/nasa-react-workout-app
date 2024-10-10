@@ -1,10 +1,11 @@
 import React from 'react'
+import mars_pic from '../assets/mars.png'
 
 const Main = () => {
   return (
-    <div>
-      
-    </div>
+      <div className='img-container'>
+        <img src={mars_pic} alt='mars-default-picture' className='bg-image'/>
+      </div>
   )
 }
 
