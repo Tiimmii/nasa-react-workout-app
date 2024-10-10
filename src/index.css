@@ -101,6 +101,19 @@ footer button:hover{
 .sidebar-contents div{
   flex: 1;
 }
+.sidebar-contents h2{
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+.description-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.description-title{
+  font-size: 1.1rem;
+  font-weight: 200;
+}
 .sidebar-contents button{
   background: transparent;
   color: white;
@@ -123,5 +136,26 @@ footer button:hover{
 
   .sidebar-contents{
     margin: unset;
+  }
+}
+.loadingState{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  flex: 1;
+}
+.loadingState i{
+  opacity: 0.2;
+  font-size: 3rem;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
   }
 }
